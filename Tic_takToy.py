@@ -69,7 +69,7 @@ def analyzeboard(board):
   return 0;
 
 def main():
-  choice = input("Enter 1 for Single Player, Enter 2 for  Multiplayer:")
+  choice = input("Enter 1 for Single Player, Enter 2 for  Multiplayer:");
   choice=int(choice);
   board=[0, 0, 0, 0, 0, 0, 0, 0, 0]
   flag0=0
@@ -104,13 +104,13 @@ def main():
   if(x==-1):
     ConstBoard(board);
     if(flag0):
-      print("Computer wins You Looses")
+      print("Computer wins You Looses");
     else:
       print("Player X Wins!! O Looses!");
   if(x==1):
     ConstBoard(board)
     if(flag0):
-      print("Computer wins You Looses")
+      print("Computer wins You Looses");
     else:
       print("Player X Wins!! O Looses!");
 main()
